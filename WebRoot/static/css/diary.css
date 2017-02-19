@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:#eeeeee;
+}
+.navbar{
+    background:#000000;
+    height:54px;
+}
+.navbar-inner{
+    width:1100px;
+    margin:0 auto;
+}
+.navbar ul li{
+    float:left;
+    list-style: none;
+    margin-top:20px;
+}
+.navbar a{
+    padding:20px 20px 17px 20px;
+    color:white;
+    text-decoration:none;
+}
+.active a{
+    background-color:#1b6d85;
+}
+.login{
+    padding-right:70px;
+}
+.login img{
+    width:40px;
+    height:40px;
+    border-radius:40px;
+    float:right;
+    margin-top:5px;
+}
+.alogin{
+    float:right;
+    list-style: none;
+}
+.container{
+    width:1050px;
+    margin:0 auto;
+    height:600px;
+    background: white;
+}
+.header{
+    width:1020px;
+    margin-top:30px;
+    margin-left:10px;
+    background: white;
+}
+.header p{
+    padding-top: 15px;
+}
+.diary-content{
+    width:700px;
+}
+.diary-content li{
+    list-style: none;
+}
+.text-left{
+    float:left;
+}
+.text-right{
+    float:right;
+}
+clear{
+    clear:both;
+}
+.content{
+    width:800px;
+    background:white;
+}
+.both{
+    float:left;
+}
+.content a{
+	text-decoration:none;
+}
+.content-header{
+    padding:15px 210px 10px 20px;
+    display: inline-block;
+    width:500px;
+}
+.content-footer{
+    display: inline-block;
+    width:200px;
+}
+.pagination{
+    width:500px;
+    margin: 0 auto;
+    height:120px;
+}
+.pagination li{
+    margin:65px 0px 10px 0px;
+    padding:10px 0 10px 0;
+    float:left;
+    list-style: none;
+    border: solid #eeeeee 1px;
+    text-align: center;
+}
+.pagination a{
+    padding:11px 15px 11px 15px;
+    text-decoration: none;
+    margin:0 auto;
+}
+.nowpage{
+    background: #2dc3e8;
+}
+.clear{
+    clear:both
+}
+.classify{
+    width:200px;
+    background: white;
+    padding: 10px;
+    margin-right:10px;
+}
+.classify a {
+    text-decoration: none;
+    color:#2185d0;
+}
+.inline{
+    float:left;
+}
+.classify em{
+    float: right;
+}
+.search {
+	position: relative;right: 20px
+}
+.character{
+      width: 330px;
+      height: 10px;
+      white-space: nowrap;
+      overflow: hidden;              /* "overflow" value must be different from "visible" */  
+     -o-text-overflow: ellipsis;    /* Opera 9-10 */  
+      text-overflow:    ellipsis;    /* IE, WebKit (Safari, Chrome), Firefox 7, Opera 11 */  
+}
